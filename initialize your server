@@ -1,0 +1,15 @@
+First and foremost,you should buy your own server and your display.
+install openssh-server.
+
+#set your glob environment
+$su -  $passwd
+$vim /etc/profile  #add your software bin pathway,format export PATH=$PATH:/path/to/bin/
+#set your superuser authority
+$vim /etc/sudoers  #add honghh ALL=(ALL:ALL) ALL,format followed your arch system.
+$chmod u-w /etc/sudoer #get rid of file write power
+Then，you can install your biosoft.
+
+
+
+
+
