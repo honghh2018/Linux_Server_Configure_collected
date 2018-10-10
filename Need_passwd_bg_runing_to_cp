@@ -1,0 +1,7 @@
+Sometime,you copy amount of server files needed password,which will open many of terminal led to messing.
+So,the below way which need to try
+$scp -r honghh@192.168.1.100:/home/database ./　#first of all,you are running it and then ctrl + Z Suspend it.
+when above work alread,you should try the bg %number of jobs to hide the jobs in back.
+good luck!
+
+
